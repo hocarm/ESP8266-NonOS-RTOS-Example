@@ -1,6 +1,6 @@
 XTENSA		?=
-SDK_BASE	?= $(HOME)/ESP8266-Toolchain-217/sdk/ESP8266_NONOS_SDK
-ESPTOOL		?= $(HOME)/ESP8266-Toolchain-217/esptool/esptool.py
+SDK_BASE	?= $HOME/ESP8266-Toolchain-217/sdk/ESP8266_NONOS_SDK
+ESPTOOL		?= $HOME/ESP8266-Toolchain-217/esptool/esptool.py
 SDK_LIBS 	:= -lc -lgcc -lhal -lphy -lpp -lnet80211 -lwpa -lmain -llwip -lcrypto -ljson
 CC			:= $(XTENSA)xtensa-lx106-elf-gcc
 LD			:= $(XTENSA)xtensa-lx106-elf-gcc
