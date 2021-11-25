@@ -6,10 +6,10 @@ OTA ?= none
 XTENSA_TOOLS_ROOT ?=
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= $(HOME)/ESP8266-Toolchain-217/sdk/ESP8266_RTOS_SDK
+SDK_BASE	?= $(HOME)/esp/sdk/ESP8266_RTOS_SDK
 
 #Esptool.py path and port
-ESPTOOL		?= $(HOME)/ESP8266-Toolchain-217/esptool/esptool.py
+ESPTOOL		?= $(HOME)/esp/esptool/esptool.py
 #ESPPORT		?= COM8
 ESPPORT		?= /dev/ttyUSB0
 #ESPDELAY indicates seconds to wait between flashing the two binary images
